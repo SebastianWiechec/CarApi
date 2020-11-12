@@ -14,8 +14,9 @@ namespace CarApi.Models
         public string Model { get; set; }
         public string Color { get; set; }
         public int YofProd { get; set; }
+        public int Kilometers { get; set; }
         public float PriceDay { get; set; }
-        public bool IsAvailable { get; set; }
+        public int IsAvailable { get; set; }
         public DateTime Insurance { get; set; }
         public int Segment { get; set; }
         public string RegNumbers { get; set; }
